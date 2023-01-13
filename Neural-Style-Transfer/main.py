@@ -77,6 +77,9 @@ if __name__ == '__main__':
 
     # style_img_fp = "Images/The_Birth_of_Venus.jpg"
     # style_image = load_image(style_img_fp, image_size=(2400,1300))
+    # style_img_fp = "Images/Composition_10.png"
+    # style_image = load_image(style_img_fp, image_size=(640,419))
+
 
 
     ########## Pepper ##########
@@ -91,20 +94,20 @@ if __name__ == '__main__':
 
     ########## Kona ##########
     
-    orig_img_fp = "Images/Kona2.jpg"
-    original_image = load_image(orig_img_fp, image_size=(768, 1024))
+    # orig_img_fp = "Images/Kona2.jpg"
+    # original_image = load_image(orig_img_fp, image_size=(768, 1024))
 
-    style_img_fp = "Images/Mona_Lisa.jpg"
-    style_image = load_image(style_img_fp, image_size=(1024,768))
+    # style_img_fp = "Images/Mona_Lisa.jpg"
+    # style_image = load_image(style_img_fp, image_size=(1024,768))
 
 
-    ########## Elephant ##########
+    ########## Chicago ##########
     
-    # orig_img_fp = "Images/Smithsonian_Elephant.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(2400, 1300))
+    orig_img_fp = "Images/Wrigley_Field_sign_night.jpg"
+    original_image = load_image(orig_img_fp, image_size=(2400, 1300))
 
-    # style_img_fp = "Images/Composition_10.png"
-    # style_image = load_image(style_img_fp, image_size=(640,419))
+    style_img_fp = "Images/Ad.jpg"
+    style_image = load_image(style_img_fp, image_size=(574,750))
 
 
 
