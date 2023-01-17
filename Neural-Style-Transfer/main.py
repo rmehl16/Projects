@@ -11,6 +11,7 @@ def load_image(image_path, image_size=(512, 256)):
       tf.io.read_file(image_path),
       channels=3, dtype=tf.float32)[tf.newaxis, ...]
     img = tf.image.resize(img, image_size, preserve_aspect_ratio=True)
+    #img = tf.image.resize(img, image_size)
     return img
 
 
@@ -30,15 +31,24 @@ def visualize(images, titles=('',)):
     plt.show()
 
 
+def export_image(tf_img):
+    tf_img = tf_img*255
+    tf_img = np.array(tf_img, dtype=np.uint8)
+    if np.ndim(tf_img)>3:
+        assert tf_img.shape[0] == 1
+        img = tf_img[0]
+    return PIL.Image.fromarray(img)
+
+
 if __name__ == '__main__':
 
     ########## London Bridge ##########
 
-    # orig_img_fp = "Images/London_Bridge.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(2400, 1300))
+    orig_img_fp = "Images/London_Bridge.jpg"
+    original_image = load_image(orig_img_fp, image_size=(3180, 3180))
 
-    # style_img_fp = "Images/Nighthawks.jpg"
-    # style_image = load_image(style_img_fp, image_size=(2400,1300))
+    style_img_fp = "Images/Nighthawks.jpg"
+    style_image = load_image(style_img_fp, image_size=(2400,1300))
 
 
     ########## Third Lake ##########
@@ -103,11 +113,11 @@ if __name__ == '__main__':
 
     ########## Chicago ##########
     
-    orig_img_fp = "Images/Wrigley_Field_sign_night.jpg"
-    original_image = load_image(orig_img_fp, image_size=(2400, 1300))
+    # orig_img_fp = "Images/Wrigley_Field_sign_night.jpg"
+    # original_image = load_image(orig_img_fp, image_size=(3180, 3180))
 
-    style_img_fp = "Images/Ad.jpg"
-    style_image = load_image(style_img_fp, image_size=(574,750))
+    # style_img_fp = "Images/Ad.jpg"
+    # style_image = load_image(style_img_fp, image_size=(574,750))
 
 
 
@@ -120,4 +130,7 @@ if __name__ == '__main__':
     results = stylize_model(tf.constant(original_image), tf.constant(style_image))
     stylized_image = results[0]
 
-    visualize([original_image, style_image, stylized_image], titles=['Original Image', 'Style Image', 'Stylized Image'])
+    #visualize([original_image, style_image, stylized_image], titles=['Original Image', 'Style Image', 'Stylized Image'])
+
+    export_image(stylized_image).save("Cubs_x_Ad.png")
+
