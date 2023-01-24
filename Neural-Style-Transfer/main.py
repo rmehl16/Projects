@@ -5,6 +5,8 @@ import tensorflow as tf
 import tensorflow_hub as tf_hub
 import PIL
 
+import argparse
+
 
 def load_image(image_path, image_size=(512, 256)):
     img = tf.io.decode_image(
@@ -42,19 +44,30 @@ def export_image(tf_img):
 
 if __name__ == '__main__':
 
+    # Need better way to change args
+    help_msg = ''
+    parser = argparse.ArgumentParser(description=help_msg)
+    parser.add_argument('--target', default='London_Bridge')
+    parser.add_argument('--style', default='Nighthawks')
+
+
+    args = parser.parse_args()
+    print(args)
+
+
     ########## London Bridge ##########
 
-    orig_img_fp = "Images/London_Bridge.jpg"
-    original_image = load_image(orig_img_fp, image_size=(3180, 3180))
+    # orig_img_fp = "Images/London_Bridge.jpg"
+    # original_image = load_image(orig_img_fp, image_size=(3180, 3180))
 
-    style_img_fp = "Images/Nighthawks.jpg"
-    style_image = load_image(style_img_fp, image_size=(2400,1300))
+    # style_img_fp = "Images/Nighthawks.jpg"
+    # style_image = load_image(style_img_fp, image_size=(2400,1300))
 
 
     ########## Third Lake ##########
 
     # orig_img_fp = "Images/Third_Lake_Sunset.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(2400, 1300))
+    # original_image = load_image(orig_img_fp, image_size=(3180, 3180))
 
     # style_img_fp = "Images/A_Sunday_on_La_Grande_Jatte.jpg"
     # style_image = load_image(style_img_fp, image_size=(525,353))
@@ -74,7 +87,7 @@ if __name__ == '__main__':
     ########## Arlington ##########
     
     # orig_img_fp = "Images/Arlington.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(2400, 1300))
+    # original_image = load_image(orig_img_fp, image_size=(3180, 3180))
 
     # style_img_fp = "Images/A_Sunday_on_La_Grande_Jatte.jpg"
     # style_image = load_image(style_img_fp, image_size=(525,353))
@@ -104,11 +117,14 @@ if __name__ == '__main__':
 
     ########## Kona ##########
     
-    # orig_img_fp = "Images/Kona2.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(768, 1024))
+    orig_img_fp = "Images/Kona1.jpg"
+    original_image = load_image(orig_img_fp, image_size=(768, 1024))
 
     # style_img_fp = "Images/Mona_Lisa.jpg"
     # style_image = load_image(style_img_fp, image_size=(1024,768))
+
+    style_img_fp = "Images/Composition_VIII.jpg"
+    style_image = load_image(style_img_fp, image_size=(1024,1024))
 
 
     ########## Chicago ##########
@@ -123,14 +139,14 @@ if __name__ == '__main__':
 
     # visualize([original_image, style_image], ['Original Image', 'Style Image'])
 
-    style_image = tf.nn.avg_pool(style_image, ksize=[3,3], strides=[1,1], padding='VALID')
+    # style_image = tf.nn.avg_pool(style_image, ksize=[3,3], strides=[1,1], padding='VALID')
 
-    stylize_model = tf_hub.load('tf_model')
+    # stylize_model = tf_hub.load('tf_model')
 
-    results = stylize_model(tf.constant(original_image), tf.constant(style_image))
-    stylized_image = results[0]
+    # results = stylize_model(tf.constant(original_image), tf.constant(style_image))
+    # stylized_image = results[0]
 
     #visualize([original_image, style_image, stylized_image], titles=['Original Image', 'Style Image', 'Stylized Image'])
 
-    export_image(stylized_image).save("Cubs_x_Ad.png")
+    #export_image(stylized_image).save("Rhinelander_x_Wheat_Field.png")
 
