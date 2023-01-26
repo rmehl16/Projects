@@ -3,3 +3,4 @@ Neural-Style-Transfer/Images/*
 Neural-Style-Transfer/tf_model/*
 Neural-Style-Transfer/*.jpg
 Neural-Style-Transfer/*.png
+*.pyc
