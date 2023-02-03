@@ -80,35 +80,15 @@ if __name__ == '__main__':
 
     ########## London_Bridge x Nighthawks ##########
  
-    ########## Third Lake ##########
+    ########## 3_Lake x Sunday ##########
 
-    # orig_img_fp = "Images/Third_Lake_Sunset.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(3180, 3180))
+    ########## 3_Lake x Scream ##########
 
-    # style_img_fp = "Images/A_Sunday_on_La_Grande_Jatte.jpg"
-    # style_image = load_image(style_img_fp, image_size=(525,353))
-    # style_img_fp = "Images/The_Scream.jpg"
-    # style_image = load_image(style_img_fp, image_size=(2400,1300))
+    ########## Central Park Sunset x Scream ##########
 
+    ########## Arlington x Sunday ##########
 
-
-    ########## Central Park Sunset ##########
-
-    # orig_img_fp = "Images/NYC_CP.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(2400, 1300))
-
-    # style_img_fp = "Images/The_Scream.jpg"
-    # style_image = load_image(style_img_fp, image_size=(2400,1300))
-
-
-    ########## Arlington ##########
-    
-    # orig_img_fp = "Images/Arlington.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(3180, 3180))
-
-    # style_img_fp = "Images/A_Sunday_on_La_Grande_Jatte.jpg"
-    # style_image = load_image(style_img_fp, image_size=(525,353))
-
+    ########## Wrigley_Sign x Ad ##########
 
     ########## Elephant ##########
     
@@ -132,7 +112,7 @@ if __name__ == '__main__':
     # style_image = load_image(style_img_fp, image_size=(1135,899))
 
 
-    ########## Kona ##########
+    ########## Kona3 x Pic_wwf ##########
     
     # orig_img_fp = "Images/Kona1.jpg"
     # original_image = load_image(orig_img_fp, image_size=(768, 1024))
@@ -144,7 +124,6 @@ if __name__ == '__main__':
     # style_image = load_image(style_img_fp, image_size=(1024,1024))
 
 
-    ########## Wrigley_Sign x Ad ##########
 
     # visualize([original_image, style_image], ['Original Image', 'Style Image'])
 

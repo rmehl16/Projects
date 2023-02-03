@@ -14,6 +14,11 @@ IMAGE_REF = {
                         'Res_x' : 640,
                         'Res_y' : 419
                     },
+    'Composition_7' : {
+                        'Path': 'Images/Composition_7.jpg',
+                        'Res_x' : 1000,
+                        'Res_y' : 657
+                    },
     'Wrigley_Sign' : {
                         'Path': 'Images/Wrigley_Field_sign_night.jpg',
                         'Res_x' : 3180,
@@ -58,5 +63,75 @@ IMAGE_REF = {
                         'Path': 'Images/Among_the_Ruins.jpg',
                         'Res_x' : 800,
                         'Res_y' : 482
+                    },
+    'Poker' : {
+                        'Path': 'Images/Dogs_Playing_Poker.jpg',
+                        'Res_x' : 992,
+                        'Res_y' : 768
+                    },
+    'Gat' : {
+                        'Path': 'Images/Gatlinburg_River.jpg',
+                        'Res_x' : 3180,
+                        'Res_y' : 3180
+                    },
+    'Oxbow' : {
+                        'Path': 'Images/Oxbow.jpg',
+                        'Res_x' : 1480,
+                        'Res_y' : 1006
+                    },
+    'Pic_wwf' : {
+                        'Path': 'Images/Woman_with_Flower.jpg',
+                        'Res_x' : 797,
+                        'Res_y' : 1020
+                    },
+    'Kona1' : {
+                        'Path': 'Images/Kona1.jpg',
+                        'Res_x' : 3180,
+                        'Res_y' : 3180
+                    },
+    'Kona3' : {
+                        'Path': 'Images/Kona3.jpg',
+                        'Res_x' : 3180,
+                        'Res_y' : 3180
+                    },
+    'Estaque' : {
+                        'Path': 'Images/Estaque.jpg',
+                        'Res_x' : 700,
+                        'Res_y' : 461
+                    },
+    'Sierra' : {
+                        'Path': 'Images/Among_the_Sierra_Nevada_Mountains.jpg',
+                        'Res_x' : 2558,
+                        'Res_y' : 1518
+                    },
+    'Eiffel' : {
+                        'Path': 'Images/Tour_Eiffel.jpg',
+                        'Res_x' : 688,
+                        'Res_y' : 1100
+                    },
+    'Lucky' : {
+                        'Path': 'Images/LuckyStrikeAdvertisement1926.png',
+                        'Res_x' : 735,
+                        'Res_y' : 1010
+                    },
+    'reve' : {
+                        'Path': 'Images/reve.jpg',
+                        'Res_x' : 586,
+                        'Res_y' : 800
+                    },
+    'Dog_Basket' : {
+                        'Path': 'Images/Dog_with_Yellow_Basket.jpg',
+                        'Res_x' : 1891,
+                        'Res_y' : 1658
+                    },
+    'Hilma' : {
+                        'Path': 'Images/Hilma.jpg',
+                        'Res_x' : 1278,
+                        'Res_y' : 1280
+                    },
+    'Sunday' : {
+                        'Path': 'Images/A_Sunday_on_La_Grande_Jatte.jpg',
+                        'Res_x' : 525,
+                        'Res_y' : 353
                     }
 }
