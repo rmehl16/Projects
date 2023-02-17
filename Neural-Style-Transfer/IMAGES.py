@@ -21,8 +21,8 @@ IMAGE_REF = {
                     },
     'Wrigley_Sign' : {
                         'Path': 'Images/Wrigley_Field_sign_night.jpg',
-                        'Res_x' : 3180,
-                        'Res_y' : 3180
+                        'Res_x' : 2560,
+                        'Res_y' : 2560
                     },
     'Composition_8' : {
                         'Path': 'Images/Composition_VIII.jpg',
@@ -86,8 +86,8 @@ IMAGE_REF = {
                     },
     'Kona1' : {
                         'Path': 'Images/Kona1.jpg',
-                        'Res_x' : 3180,
-                        'Res_y' : 3180
+                        'Res_x' : 4032,
+                        'Res_y' : 4032
                     },
     'Kona3' : {
                         'Path': 'Images/Kona3.jpg',
@@ -133,5 +133,15 @@ IMAGE_REF = {
                         'Path': 'Images/A_Sunday_on_La_Grande_Jatte.jpg',
                         'Res_x' : 525,
                         'Res_y' : 353
+                    },
+    'Arlington' : {
+                        'Path': 'Images/Arlington.jpg',
+                        'Res_x' : 4032,
+                        'Res_y' : 4032
+                    },
+    'Pepper1' : {
+                        'Path': 'Images/Pepper1.jpg',
+                        'Res_x' : 1080,
+                        'Res_y' : 1920
                     }
 }

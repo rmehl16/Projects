@@ -61,8 +61,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     print(args.target)
 
-    print(f'Target Image: {args.target}\nResolution: {IMAGE_REF[args.target]["Res_x"]}, {IMAGE_REF[args.target]["Res_x"]}')
-    print(f'Target Image: {args.style}\nResolution: {IMAGE_REF[args.style]["Res_x"]}, {IMAGE_REF[args.style]["Res_x"]}')
+    print(f'Target Image: {args.target}\nResolution: {IMAGE_REF[args.target]["Res_x"]}, {IMAGE_REF[args.target]["Res_y"]}')
+    print(f'Target Image: {args.style}\nResolution: {IMAGE_REF[args.style]["Res_x"]}, {IMAGE_REF[args.style]["Res_y"]}')
     
     #sys.exit()
     tgt_path = IMAGE_REF[args.target]["Path"]
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
     ########## Arlington x Sunday ##########
 
-    ########## Wrigley_Sign x Ad ##########
+    ########## Cubs x Composition_10 ##########
 
     ########## Elephant ##########
     
@@ -112,18 +112,8 @@ if __name__ == '__main__':
     # style_image = load_image(style_img_fp, image_size=(1135,899))
 
 
-    ########## Kona3 x Pic_wwf ##########
+    ########## Kona1 x Pic_wwf ##########
     
-    # orig_img_fp = "Images/Kona1.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(768, 1024))
-
-    # style_img_fp = "Images/Mona_Lisa.jpg"
-    # style_image = load_image(style_img_fp, image_size=(1024,768))
-
-    # style_img_fp = "Images/Composition_VIII.jpg"
-    # style_image = load_image(style_img_fp, image_size=(1024,1024))
-
-
 
     # visualize([original_image, style_image], ['Original Image', 'Style Image'])
 
