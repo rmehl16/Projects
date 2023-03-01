@@ -1,6 +1,6 @@
 #### Images from Neural-Style-Transfer ####
 Neural-Style-Transfer/Images/*
 Neural-Style-Transfer/tf_model/*
-Neural-Style-Transfer/*.jpg
-Neural-Style-Transfer/*.png
+Neural-Style-Transfer/archive/*.jpg
+Neural-Style-Transfer/archive/*.png
 *.pyc
