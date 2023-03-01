@@ -68,6 +68,7 @@ if __name__ == '__main__':
     tgt_path = IMAGE_REF[args.target]["Path"]
     tgt_res_x = IMAGE_REF[args.target]["Res_x"]
     tgt_res_y = IMAGE_REF[args.target]["Res_y"]
+    tgt_rot_90 = IMAGE_REF[args.target].get("Rot_90",0)
 
     style_path = IMAGE_REF[args.style]["Path"]
     style_res_x = IMAGE_REF[args.style]["Res_x"]
@@ -76,44 +77,6 @@ if __name__ == '__main__':
     original_image = load_image(tgt_path, image_size=(tgt_res_x, tgt_res_y))
 
     style_image = load_image(style_path, image_size=(style_res_x, style_res_y))
-
-
-    ########## London_Bridge x Nighthawks ##########
- 
-    ########## 3_Lake x Sunday ##########
-
-    ########## 3_Lake x Scream ##########
-
-    ########## Central Park Sunset x Scream ##########
-
-    ########## Arlington x Sunday ##########
-
-    ########## Cubs x Composition_10 ##########
-
-    ########## Elephant ##########
-    
-    # orig_img_fp = "Images/Smithsonian_Elephant.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(2400, 1300))
-
-    # style_img_fp = "Images/The_Birth_of_Venus.jpg"
-    # style_image = load_image(style_img_fp, image_size=(2400,1300))
-    # style_img_fp = "Images/Composition_10.png"
-    # style_image = load_image(style_img_fp, image_size=(640,419))
-
-
-
-    ########## Pepper ##########
-    
-    # orig_img_fp = "Images/Pepper2.jpg"
-    # original_image = load_image(orig_img_fp, image_size=(1300, 2400))
-    # original_image = tf.image.rot90(original_image, k=1)
-
-    # style_img_fp = "Images/Starry_Night.jpg"
-    # style_image = load_image(style_img_fp, image_size=(1135,899))
-
-
-    ########## Kona1 x Pic_wwf ##########
-    
 
     # visualize([original_image, style_image], ['Original Image', 'Style Image'])
 
@@ -126,5 +89,7 @@ if __name__ == '__main__':
 
     #visualize([original_image, style_image, stylized_image], titles=['Original Image', 'Style Image', 'Stylized Image'])
 
-    export_image(stylized_image).save("Test.png")
+
+
+    export_image(tf.image.rot90(stylized_image, k=tgt_rot_90)).save("Test.png")
 

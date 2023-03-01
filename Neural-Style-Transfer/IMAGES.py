@@ -143,5 +143,26 @@ IMAGE_REF = {
                         'Path': 'Images/Pepper1.jpg',
                         'Res_x' : 1080,
                         'Res_y' : 1920
+                    },
+    'Pepper2' : {
+                        'Path': 'Images/Pepper2.jpg',
+                        'Res_x' : 3024,
+                        'Res_y' : 4032,
+                        'Rot_90': 1
+                    },
+    'Pepper5' : {
+                        'Path': 'Images/Pepper5.jpg',
+                        'Res_x' : 1512,#3024,
+                        'Res_y' : 2016#4032
+                    },
+    'MrPointy' : {
+                        'Path': 'Images/MrPointy.jpg',
+                        'Res_x' : 351,
+                        'Res_y' : 500
+                    },
+    'SuperNova' : {
+                        'Path': 'Images/Supernova_remnant_W49B.jpg',
+                        'Res_x' : 852,
+                        'Res_y' : 850
                     }
 }
