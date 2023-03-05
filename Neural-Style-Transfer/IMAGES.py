@@ -146,8 +146,8 @@ IMAGE_REF = {
                     },
     'Pepper2' : {
                         'Path': 'Images/Pepper2.jpg',
-                        'Res_x' : 3024,
-                        'Res_y' : 4032,
+                        'Res_x' : 2016,#3024,
+                        'Res_y' : 2688,#4032,
                         'Rot_90': 1
                     },
     'Pepper5' : {
