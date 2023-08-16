@@ -161,8 +161,18 @@ IMAGE_REF = {
                         'Res_y' : 500
                     },
     'SuperNova' : {
-                        'Path': 'Images/Supernova_remnant_W49B.jpg',
+                        'Path': 'Images/Supernova_remnant_W49B.jpeg',
                         'Res_x' : 852,
                         'Res_y' : 850
+                    },
+    'AG_RM_Buckingham' : {
+                        'Path': 'Images/AG_RM_Buckingham.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 769
+                    },
+    'CM1' : {
+                        'Path': 'Images/CM1.jpeg',
+                        'Res_x' : 640,
+                        'Res_y' : 319
                     }
 }

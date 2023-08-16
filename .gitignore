@@ -4,3 +4,4 @@ Neural-Style-Transfer/tf_model/*
 Neural-Style-Transfer/archive/*.jpg
 Neural-Style-Transfer/archive/*.png
 *.pyc
+.DS_Store
