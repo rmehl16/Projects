@@ -174,5 +174,10 @@ IMAGE_REF = {
                         'Path': 'Images/CM1.jpeg',
                         'Res_x' : 640,
                         'Res_y' : 319
+                    },
+    'Kona_Dock' : {
+                        'Path': 'Images/Kona_Dock.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 768
                     }
 }
