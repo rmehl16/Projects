@@ -179,5 +179,55 @@ IMAGE_REF = {
                         'Path': 'Images/Kona_Dock.jpeg',
                         'Res_x' : 1024,
                         'Res_y' : 768
+                    },
+    'AG3' : {
+                        'Path': 'Images/AG_3rd_cute.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 768
+                    },
+    'Walking' : {
+                        'Path': 'Images/walking.jpeg',
+                        'Res_x' : 768,
+                        'Res_y' : 1024
+                    },
+    'CM2' : {
+                        'Path': 'Images/CM2.jpeg',
+                        'Res_x' : 640,
+                        'Res_y' : 498
+                    },
+    'Maine1' : {
+                        'Path': 'Images/Maine1.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 768
+                    },
+    'Maine2' : {
+                        'Path': 'Images/Maine2.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 768
+                    },
+    'Hot_Dog' : {
+                        'Path': 'Images/hot_dog.jpeg',
+                        'Res_x' : 769,
+                        'Res_y' : 1024
+                    },
+    'Graduation' : {
+                        'Path': 'Images/Graduation.jpeg',
+                        'Res_x' : 512,
+                        'Res_y' : 512
+                    },
+    'Buck_Ftn' : {
+                        'Path': 'Images/Buck_Ftn.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 768
+                    },
+    'Buck_Ftn_HD' : {
+                        'Path': 'Images/Buck_Ftn_HD.jpeg',
+                        'Res_x' : 4032,
+                        'Res_y' : 3024
+                    },
+    'CM3' : {
+                        'Path': 'Images/CM3.jpeg',
+                        'Res_x' : 640,
+                        'Res_y' : 472
                     }
 }
