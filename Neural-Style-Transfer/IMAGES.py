@@ -229,5 +229,30 @@ IMAGE_REF = {
                         'Path': 'Images/CM3.jpeg',
                         'Res_x' : 640,
                         'Res_y' : 472
+                    },
+    'Pagoda' : {
+                        'Path': 'Images/Kyoto_Pagoda.jpeg',
+                        'Res_x' : 3024,
+                        'Res_y' : 4032
+                    },
+    'Abe' : {
+                        'Path': 'Images/Abe-no-Nakamaro.jpeg',
+                        'Res_x' : 672,
+                        'Res_y' : 1886
+                    },
+    'Fuji' : {
+                        'Path': 'Images/Fuji.jpeg',
+                        'Res_x' : 4032,#3024,
+                        'Res_y' : 3024#2268
+                    },
+    'Wave' : {
+                        'Path': 'Images/Wave_Kanagawa.jpeg',
+                        'Res_x' : 1280,
+                        'Res_y' : 860
+                    },
+    'Wave_Crop' : {
+                        'Path': 'Images/Wave_Kanagawa_cropped.jpeg',
+                        'Res_x' : 255,
+                        'Res_y' : 172
                     }
 }
