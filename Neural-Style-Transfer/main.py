@@ -62,7 +62,7 @@ if __name__ == '__main__':
     print(args.target)
 
     print(f'Target Image: {args.target}\nResolution: {IMAGE_REF[args.target]["Res_x"]}, {IMAGE_REF[args.target]["Res_y"]}')
-    print(f'Target Image: {args.style}\nResolution: {IMAGE_REF[args.style]["Res_x"]}, {IMAGE_REF[args.style]["Res_y"]}')
+    print(f'Style Image: {args.style}\nResolution: {IMAGE_REF[args.style]["Res_x"]}, {IMAGE_REF[args.style]["Res_y"]}')
     
     #sys.exit()
     tgt_path = IMAGE_REF[args.target]["Path"]

@@ -254,5 +254,15 @@ IMAGE_REF = {
                         'Path': 'Images/Wave_Kanagawa_cropped.jpeg',
                         'Res_x' : 255,
                         'Res_y' : 172
+                    },
+    'MC_Village' : {
+                        'Path': 'Images/MC_Village.jpeg',
+                        'Res_x' : 600,
+                        'Res_y' : 780
+                    },
+    'GHound1' : {
+                        'Path': 'Images/greyhound1.jpeg',
+                        'Res_x' : 1500,
+                        'Res_y' : 1000
                     }
 }
