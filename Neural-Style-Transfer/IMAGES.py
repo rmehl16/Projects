@@ -237,8 +237,8 @@ IMAGE_REF = {
                     },
     'Abe' : {
                         'Path': 'Images/Abe-no-Nakamaro.jpeg',
-                        'Res_x' : 672,
-                        'Res_y' : 1886
+                        'Res_x' : 1345,#672,
+                        'Res_y' : 3771,#1886
                     },
     'Fuji' : {
                         'Path': 'Images/Fuji.jpeg',
@@ -264,5 +264,45 @@ IMAGE_REF = {
                         'Path': 'Images/greyhound1.jpeg',
                         'Res_x' : 1500,
                         'Res_y' : 1000
+                    },
+    'Dotonbori' : {
+                        'Path': 'Images/Dotonbori.jpeg',
+                        'Res_x' : 3024,
+                        'Res_y' : 4032
+                    },
+    'Kart' : {
+                        'Path': 'Images/Mario_Kart.jpeg',
+                        'Res_x' : 1110,
+                        'Res_y' : 1110
+                    },
+    'SMW' : {
+                        'Path': 'Images/SMW.png',
+                        'Res_x' : 960,
+                        'Res_y' : 540
+                    },
+    'Wagyu' : {
+                        'Path': 'Images/Wagyu.jpeg',
+                        'Res_x' : 3024,
+                        'Res_y' : 4032
+                    },
+    'MC_Paris' : {
+                        'Path': 'Images/MC_Paris.jpeg',
+                        'Res_x' : 1280,
+                        'Res_y' : 1229
+                    },
+    'Orion' : {
+                        'Path': 'Images/Orion.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 1024
+                    },
+    'Hogwarts' : {
+                        'Path': 'Images/Hogwarts.jpeg',
+                        'Res_x' : 3024,
+                        'Res_y' : 4032
+                    },
+    'Veil_Nebula' : {
+                        'Path': 'Images/Veil_Nebula.jpeg',
+                        'Res_x' : 1024,
+                        'Res_y' : 717
                     }
 }
