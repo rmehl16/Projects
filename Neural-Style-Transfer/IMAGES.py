@@ -304,5 +304,15 @@ IMAGE_REF = {
                         'Path': 'Images/Veil_Nebula.jpeg',
                         'Res_x' : 1024,
                         'Res_y' : 717
+                    },
+    'Sketch1' : {
+                        'Path': 'Images/sketch1.jpeg',
+                        'Res_x' : 768,
+                        'Res_y' : 1024
+                    },
+    'AG_RM_Bed' : {
+                        'Path': 'Images/AG_RM_Bed.jpeg',
+                        'Res_x' : 3088,
+                        'Res_y' : 2316
                     }
 }

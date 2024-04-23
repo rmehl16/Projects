@@ -5,3 +5,4 @@ Neural-Style-Transfer/archive/*
 *.pyc
 .DS_Store
 Neural-Style-Transfer/test.png
+yFinance/env/*
