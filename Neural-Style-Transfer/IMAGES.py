@@ -314,5 +314,30 @@ IMAGE_REF = {
                         'Path': 'Images/AG_RM_Bed.jpeg',
                         'Res_x' : 3088,
                         'Res_y' : 2316
+                    },
+    'Hallstatt1' : {
+                        'Path': 'Images/Hallstatt1.jpeg',
+                        'Res_x' : 4032,
+                        'Res_y' : 3024
+                    },
+    'Grinch' : {
+                        'Path': 'Images/grinch.jpeg',
+                        'Res_x' : 960,
+                        'Res_y' : 540
+                    },
+    'Guitarist' : {
+                        'Path': 'Images/Guitarist.jpeg',
+                        'Res_x' : 479,
+                        'Res_y' : 712
+                    },
+    'Salz_Adri' : {
+                        'Path': 'Images/Salz_Adri.jpeg',
+                        'Res_x' : 1512,
+                        'Res_y' : 2016
+                    },
+    'MC_Adri' : {
+                        'Path': 'Images/MC_Adri.jpeg',
+                        'Res_x' : 500,
+                        'Res_y' : 600
                     }
 }
